@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'url';
 import vue from '@vitejs/plugin-vue';
 import eslintPlugin from 'vite-plugin-eslint';
 import Unocss from 'unocss/vite';
+import { ViteCodeInspectorPlugin } from 'vite-code-inspector-plugin';
 export default defineConfig({
   plugins: [
     vue(),
@@ -11,6 +12,11 @@ export default defineConfig({
     }),
     Unocss({
       configFile: './uno.config.js',
+    }),
+    ViteCodeInspectorPlugin({
+      showSwitch: true,
+      hotKeys: ['altKey', 'shiftKey'],
+      autoToggle: true,
     }),
   ],
   css: {

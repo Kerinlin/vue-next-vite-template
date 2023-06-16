@@ -21,6 +21,7 @@
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.18.2",
     "@vitejs/plugin-vue": "^2.3.3",
+    "add": "^2.0.6",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -32,6 +33,7 @@
     "sass-loader": "^13.0.2",
     "unocss": "^0.43.0",
     "vite": "^2.9.9",
+    "vite-code-inspector-plugin": "^0.0.10",
     "vite-plugin-eslint": "^1.6.1"
   },
   "lint-staged": {
