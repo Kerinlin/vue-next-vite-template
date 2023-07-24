@@ -1,7 +1,11 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router';
-import store from './store';
+import { router } from './router/index';
+import { createPinia } from 'pinia';
+const pinia = createPinia();
 import 'virtual:uno.css';
 import '@unocss/reset/tailwind.css';
-createApp(App).use(store).use(router).mount('#app');
+const app = createApp(App);
+app.use(router);
+app.use(pinia);
+app.mount('#app');

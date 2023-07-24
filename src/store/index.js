@@ -1,9 +1,5 @@
-import { createStore } from 'vuex';
-
-export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
+import { defineStore } from 'pinia';
+export const useAppStore = defineStore('app', {
+  state: () => {},
   actions: {},
-  modules: {},
 });

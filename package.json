@@ -13,9 +13,9 @@
   "dependencies": {
     "@unocss/reset": "^0.43.0",
     "@vueuse/core": "^9.12.0",
-    "vue": "^3.2.25",
-    "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "pinia": "^2.1.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
@@ -32,7 +32,7 @@
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2",
     "unocss": "^0.43.0",
-    "vite": "^2.9.9",
+    "vite": "^4.1.4",
     "vite-code-inspector-plugin": "^0.0.10",
     "vite-plugin-eslint": "^1.6.1"
   },
