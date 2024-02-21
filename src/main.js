@@ -1,10 +1,11 @@
 import { createApp } from 'vue';
-import App from './App.vue';
-import { router } from './router/index';
 import { createPinia } from 'pinia';
-const pinia = createPinia();
+import { router } from './router/index';
+import App from './App.vue';
 import 'virtual:uno.css';
 import '@unocss/reset/tailwind.css';
+
+const pinia = createPinia();
 const app = createApp(App);
 app.use(router);
 app.use(pinia);
